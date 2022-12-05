@@ -1,0 +1,13 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+
+body{ background: green; color: #fff}
+h1:before{content: "1";}
+h1:after{content: "-기본";}
+
+/* 화면의 너비가 0~1280px: 데스크탑 */
+@media (max-width:1280px){
+    body{ background: #0f2c67; color: #fff}
+    h1:before{content: "2";}
+    h1:after{content: "-1025px ~ 1280px";}
+}
